@@ -27,14 +27,13 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-4. Install Dependencies
-Install the required Python packages from the requirements.txt file
+4. Install the required dependencies
+   - Install the required Python packages from the requirements.txt file
 ```python
 pip install -r requirements.txt
 ```
 
-
-5. Run the main.py file on your terminal
+1. Run the main.py file on your terminal
 ```python
 python main.py
 ```
