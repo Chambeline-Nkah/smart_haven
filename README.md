@@ -13,22 +13,27 @@ To set up the environment and run the project, follow these steps:
 1. Clone the repository:
 
 ```python
-git clone ttps://github.com/Chambeline-Nkah/smart_haven.git
+git clone https://github.com/Chambeline-Nkah/smart_haven.git
 cd smart_haven
 ```
 
-2. Set up a virtual environment (optional but recommeded)
+2. Navigate to the project's directory:
+```python
+cd smart-haven/api
+```
+3. Set up a virtual environment (optional but recommeded)
 ```python
 python -m venv venv
 venv\Scripts\activate
 ```
 
-3. Download the dataset in the data directory
-
-4. To train and evaluate the model:
+1. Install Dependencies
+Install the required Python packages from the requirements.txt file
 ```python
-python train.py
+pip install -r requirements.txt
 ```
+
+1. Run the API locally
 
 
 ## **Circuit diagram**
