@@ -27,13 +27,13 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-1. Install Dependencies
+4. Install Dependencies
 Install the required Python packages from the requirements.txt file
 ```python
 pip install -r requirements.txt
 ```
 
-1. Run the API locally
+5. Run the API locally
 
 
 ## **Circuit diagram**
