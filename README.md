@@ -74,7 +74,7 @@ Below is the circuit diagram for smart haven:
 
 
 ## **Deployment Plan**
-The model will be deployed as a real-time poultry health monitoring system, either on a cloud platform. It will process incoming audio, extract MFCC features, and classify the health status of the poultry. The temperature and humidity readings as well will be recorded through the sensors and displayed on the dashboard.Alerts will be sent to farmers via email when poultry state isn't good. The system will be continuously improved by updating the model with new data for better accuracy and performance.
+The model will be deployed as a real-time poultry health monitoring system, on a cloud platform. It will process incoming audio, convert them to MEL spectrograms, and classify the health status of the poultry. The temperature and humidity readings as well will be recorded from the sensors and displayed on the dashboard. Alerts will be sent to farmers via email when poultry state isn't good. The system will be continuously improved by updating the model with new data for better accuracy and performance.
 
 
 ## **Conclusion**
