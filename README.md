@@ -33,7 +33,11 @@ Install the required Python packages from the requirements.txt file
 pip install -r requirements.txt
 ```
 
-5. Run the API locally
+
+5. Run the main.py file on your terminal
+```python
+python main.py
+```
 
 
 ## **Circuit diagram**
