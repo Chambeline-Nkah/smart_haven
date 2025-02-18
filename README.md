@@ -1,5 +1,5 @@
 ## **Project Overview:**
-Smart Haven focuses on smart poultry farming using deep learning techniques to predict the health status of a chicken through vocalization analysis. The system processes audio data, extracts relevant features using Mel spectrograms, trains a deep learning model, and provides real-time predictions. There's also real-time monitoring of the temperature and humidity of the poultry farm. This project aims to improve poultry monitoring, enabling early disease detection, and thus enhancing farm productivity.
+Smart Haven focuses on smart poultry farming using deep learning techniques to predict the health status of a chicken through vocalization analysis. The system processes audio data, converts the audio files to Mel spectrograms, trains a deep learning model, and provides real-time predictions. There's also real-time monitoring of the temperature and humidity of the poultry farm. This project aims to improve poultry monitoring, enabling early disease detection, and thus enhancing farm productivity.
 
 
 ## **Running the Project**
