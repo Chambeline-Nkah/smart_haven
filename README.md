@@ -21,61 +21,115 @@ cd smart_haven
 ```python
 cd smart-haven/api
 ```
+
 3. Set up a virtual environment (optional but recommeded)
 ```python
 python -m venv venv
 venv\Scripts\activate
 ```
 
-4. Install the required dependencies
-   - Install the required Python packages from the requirements.txt file
-```python
-pip install -r requirements.txt
-```
 
-5. Run the main.py file on your terminal
-```python
-python main.py
-```
+4. To run the flutter app
+   
+- To run the mobile app directly, do the following:
+   - First, ensure you have the updated version of the flutter SDK
+   - Then, install all the necessary dependencies, by running the following:
+      ```python
+      run flutter pub get
+      ```
+   - Then run the ```main.dart``` file in the ```lib``` folder.
+- But in case you'll like to get the apk file instead and install it locally on your phone, run the following code:
+   ```python
+      flutter build apk
+   ```
+
+   or 
+
+   - You can just click on this [link](https://drive.google.com/file/d/1l8vIMzj4hKW62ougbVst57ZlFb_MVkeI/view?usp=drive_link) to download the apk file and install it directly on your device:
 
 
 ## **Circuit diagram**
-Below is the circuit diagram for smart haven:
+Below is the circuit diagram for this project:
+
 ![Alternate Text](images/circuit_diagram.png)
 
-## **Screenshots of the app interfaces**
+## **Screenshots of the functional app interfaces**
 
-1. Info about smart haven
-![Alternate Text](images/info1.png)
-![Alternate Text](images/info2.png)
-![Alternate Text](images/info3.png)
+1. Info pages
+
+![Alternate Text](images/appsh.jpg)
+![Alternate Text](images/welcome.jpg)
+![Alternate Text](images/info2.jpg)
+![Alternate Text](images/info_request.jpg)
 
 2. Sign Up/ Login pages
-![Alternate Text](images/signup.png)
-![Alternate Text](images/login.png)
+
+![Alternate Text](images/sign_up.jpg)
+![Alternate Text](images/login.jpg)
 
 3. Dashboard section
-![Alternate Text](images/dashboard.png)
 
-4. Recording section
-![Alternate Text](images/record_audio.png)
-![Alternate Text](images/send_audio.png)
-![Alternate Text](images/insights.png)
+![Alternate Text](images/dashboard.jpg)
 
-5. History section
-![Alternate Text](images/history.png)
+
+4. History section
+
+![Alternate Text](images/history.jpg)
+
+
+## **Different processes regarding the project**
+1. Recording of the audio:
+
+![Alternate Text](images/recording_audio.png)
+
+2. Sending the audio to the database:
+
+![Alternate Text](images/audio_supa.png)
+
+
+3. Audio files in the database:
+
+![Alternate Text](images/audio_files.jpg)
+
+
+4. Recorded audio files stored in the db:
+
+
+![Alternate Text](images/saved_recordings.jpg)
+
+
+5. Sending of environmental data to db:
+
+![Alternate Text](images/env_supa.png)
+
+
+6. Temperature/Humidity in the db:
+
+![Alternate Text](images/temp_humid.jpg)
+
+
+7. Predictions done by the model based on the audio data received:
+
+![Alternate Text](images/predictions.jpg)
+
+
+8. Email notification sent:
+
+
+![Alternate Text](images/email_notification.png)
+
 
 
 ## Figma File
 [Figma](https://www.figma.com/design/jM4jeLnMvGebyfmjqSRLn8/Capstone-Project?node-id=0-1&p=f&t=WiUQlnC0pmLfFiKK-0)
 
 ## Demo Video
-[Demo](https://drive.google.com/file/d/1Bam0GD871M_vi7w6Y7lNlaAVoh8IP1ha/view?usp=drive_link)
+[Demo](https://www.loom.com/share/de24de43f0c14e4c86830164fdc7b1cf?sid=247e8e18-3013-423d-b8c0-7c30bcaf8738)
 
 
 ## **Deployment Plan**
-The model will be deployed as a real-time poultry health monitoring system, on a cloud platform. It will process incoming audio, convert them to MEL spectrograms, and classify the health status of the poultry. The temperature and humidity readings as well will be recorded from the sensors and displayed on the dashboard. Alerts will be sent to farmers via email when poultry state isn't good. The system will be continuously improved by updating the model with new data for better accuracy and performance.
+The model was deployed as a real-time poultry health monitoring system, on a cloud platform. It processed incoming audio, converted them to MEL spectrograms, and classified the health status of the poultry. The temperature and humidity readings were recorded from the sensors and displayed on the dashboard. Alerts were sent via email when thepoultry state or the environmental conditions wren't favourable. The system is being continuously improved by updating the model with new data for better accuracy and performance.
 
 
 ## **Conclusion**
-This project demonstrates the application of deep learning in poultry farming to aid in real-time monitoring of poultry, early disease detection thereby aiding in improving overall poultry health.
+This project demonstrated the application of deep learning in poultry farming to aid in real-time monitoring of poultry, early disease detection thereby aiding in improving overall poultry health.

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1051467916557",
+    "project_id": "fir-frontend-bc508",
+    "storage_bucket": "fir-frontend-bc508.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051467916557:android:97b5760530efafe783bc44",
+        "android_client_info": {
+          "package_name": "com.example.capstone_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051467916557-lqo9ps87b52f2enfvut915ns3lam01jd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVDRDwf34_1-W8QQnPjYU23zCIxL-O85Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051467916557-lqo9ps87b52f2enfvut915ns3lam01jd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
