@@ -124,7 +124,7 @@ Below is the circuit diagram for this project:
 [Figma](https://www.figma.com/design/jM4jeLnMvGebyfmjqSRLn8/Capstone-Project?node-id=0-1&p=f&t=WiUQlnC0pmLfFiKK-0)
 
 ## Demo Video
-[Demo](https://www.loom.com/share/de24de43f0c14e4c86830164fdc7b1cf?sid=247e8e18-3013-423d-b8c0-7c30bcaf8738)
+[Demo](https://www.loom.com/share/a36a009095024033b6edcd30feac8c08?sid=8d5bf93d-93dd-4ef9-b2c0-a4c37990b283)
 
 
 ## **Deployment Plan**
