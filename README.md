@@ -1,5 +1,5 @@
 ## **Project Overview:**
-Smart Haven focuses on smart poultry farming using deep learning techniques to predict the health status of a chicken through vocalization analysis. The system processes audio data, converts the audio files to Mel spectrograms, trains a deep learning model, and provides real-time predictions. There's also real-time monitoring of the temperature and humidity of the poultry farm. This project aims to improve poultry monitoring, enabling early disease detection, and thus enhancing farm productivity.
+Smart Haven focuses on smart poultry farming using deep learning techniques to predict the health status of chickens through vocalization analysis. The system processes audio data, adds Gaussian noise, applies time shifting and then, converts the audio files to Mel spectrograms, which is then processed by a trained deep learning model, and provides real-time predictions. There's also real-time monitoring of the temperature and humidity of the poultry farm. This project aims to improve poultry monitoring, enabling early disease detection, and thus enhancing farm productivity.
 
 
 ## **Running the Project**
@@ -51,7 +51,7 @@ venv\Scripts\activate
 ## **Circuit diagram**
 Below is the circuit diagram for this project:
 
-![Alternate Text](images/circuit_diagram.png)
+![Alternate Text](images/main_Circuit_Design.png)
 
 ## **Screenshots of the functional app interfaces**
 
@@ -124,12 +124,12 @@ Below is the circuit diagram for this project:
 [Figma](https://www.figma.com/design/jM4jeLnMvGebyfmjqSRLn8/Capstone-Project?node-id=0-1&p=f&t=WiUQlnC0pmLfFiKK-0)
 
 ## Demo Video
-[Demo](https://www.loom.com/share/a36a009095024033b6edcd30feac8c08?sid=8d5bf93d-93dd-4ef9-b2c0-a4c37990b283)
+[Demo](https://drive.google.com/file/d/1ALwtLnQmIIIDbLOMN7GpXTyVVv7JTCQt/view?usp=drive_link)
 
 
 ## **Deployment Plan**
-The model was deployed as a real-time poultry health monitoring system, on a cloud platform. It processed incoming audio, converted them to MEL spectrograms, and classified the health status of the poultry. The temperature and humidity readings were recorded from the sensors and displayed on the dashboard. Alerts were sent via email when thepoultry state or the environmental conditions wren't favourable. The system is being continuously improved by updating the model with new data for better accuracy and performance.
+The model was deployed on the Hugging Face platfom and the project was deployed in a real-time poultry farm at Nyamata. In this project, once the audio is recorded, it is converted to a MEL spectrogram, and is then processed by the model for a classification to be made. The temperature and humidity readings were recorded from the DHT22 sensor and displayed in real-time on the dashboard. Alerts were sent via email when the poultry state or the environmental conditions wren't favourable. The system is being continuously improved by updating the model with new data for better accuracy and performance.
 
 
 ## **Conclusion**
-This project demonstrated the application of deep learning in poultry farming to aid in real-time monitoring of poultry, early disease detection thereby aiding in improving overall poultry health.
+This project demonstrated the application of deep learning in poultry farming to aid in real-time monitoring of poultry health through early disease detection and effectively monitoring environmental conditions.
